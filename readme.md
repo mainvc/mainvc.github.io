@@ -4,6 +4,6 @@
 ```buildoutcfg
 <script src="./jquery.min.js"></script>
 <script src="./2h.js"></script>
-<link rel="stylesheet" href="./style.css"></link>
+<link rel="stylesheet" href="./style.css">
 ```
 4、具体设置图片等媒介需要对应设置typaro
