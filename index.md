@@ -90,6 +90,85 @@ django-admin startproject test1
 
 ![image-20200901154433005](index.assets/image-20200901154433005.png)
 
+__init__.py:说明test1是一个python包
+
+settings.py:项目的配置文件
+
+urls.py:进行url路由的配置
+
+wsgi.py:遵循wsgi协议框架，web服务器网关接口，主要针对http风格的请求响应模型做的设计。但不支持websocket。
+
+asgi.py:异步网关协议接口，能够支持http和websocket。
+
+manage.py:整个项目的管理文件。
+
+### 创建功能模块和应用
+
+Django开发中，一个功能模块用一个应用来实现
+
+创建应用：
+
+```python
+python manage.py startapp booktest
+```
+
+![image-20200901160847834](index.assets/image-20200901160847834.png)
+
+init.py说明目录是一个python模块。
+
+models.py:写和数据库相关的内容。
+
+views.py:定义视图函数。
+
+tests.py:写测试代码的文件。
+
+admin.py:和网站的后台管理相关的文件。
+
+### 注册应用到项目
+
+在项目文件夹test1中settings.py的INSTALLED_APPS变量里注册booktest：
+
+![image-20200901162023542](index.assets/image-20200901162023542.png)
+
+### 启动项目
+
+```python
+python manage.py runserver
+```
+
+### ORM
+
+缩写Object、Relation、Mapping，描述对象类和数据库中的表之间的映射关系。
+
+### 模型类和表的设计
+
+在**应用**的models.py中设计ORM。例如：
+
+```python
+from django.db import models
+
+# Create your models here.
+class BookInfo(models.Model):
+    #图书名称
+    btitle = models.CharField(max_length=20)
+    #图书的出版日期
+    bpub_date = models.DateField()
+```
+
+生成迁移文件，在项目目录下执行
+
+```python
+python manage.py makemigrations
+```
+
+执行迁移生成数据库表，在项目目录下执行
+
+```python
+python manage.py migrate
+```
+
+Django默认使用sqlite数据库，在项目文件夹settings里面,
+
 ## flask
 
 ## tornado
