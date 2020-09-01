@@ -76,3 +76,50 @@ setting–>project–>project interpreter
 pip install sklearn  -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 ```
 
+## 网络编程和多任务
+
+## 数据库
+
+## django
+
+## flask
+
+## tornado
+
+## scrapy
+
+## 数据分析
+
+## 机器学习
+
+## 深度学习
+
+## 经典库
+
+## micropython
+
+
+
+# vue
+
+## 安装、创建项目、配置
+
+```js
+npm install -g @vue/cli
+vue create hello-world
+vue ui
+```
+
+### 使用pycharm开发
+
+pycharm要使用专业版本，setting–>plugin中安装vue.js
+
+## JS语法及HTML、CSS基础知识
+
+## vue语法
+
+## vue开发手机app
+
+## vue开发桌面app
+
+# 项目部署与微服务
