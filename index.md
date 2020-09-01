@@ -82,6 +82,14 @@ pip install sklearn  -i http://pypi.douban.com/simple/ --trusted-host pypi.douba
 
 ## django
 
+### 创建项目
+
+```python
+django-admin startproject test1
+```
+
+![image-20200901154433005](index.assets/image-20200901154433005.png)
+
 ## flask
 
 ## tornado
