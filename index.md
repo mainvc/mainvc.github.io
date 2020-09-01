@@ -50,3 +50,29 @@ python test.py arg1 arg2 arg3
 ['test.py', 'arg1', 'arg2', 'arg3']
 ```
 
+## Anaconda & pycharm
+
+使用Anaconda Prompt进行环境的切换，使用pycharm创建运行环境。
+
+### Anaconda Prompt查看所有的运行环境
+
+```python
+conda info -e
+```
+
+### Anaconda Prompt激活某一个运行环境
+
+```python
+activate Aol
+```
+
+### 使用pycharm创建运行环境
+
+setting–>project–>project interpreter
+
+### 使用豆瓣加速pip安装
+
+```python
+pip install sklearn  -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+```
+
