@@ -167,7 +167,55 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-Django默认使用sqlite数据库，在项目文件夹settings里面,
+Django默认使用sqlite数据库，在项目文件夹settings里面设置，支持绝大多数数据库。
+
+### 通过模型类操作数据表
+
+django shell可以来实现模型类操作数据表
+
+```python
+python manage.py shell
+```
+
+创建实例，增加数据，在shell中依次执行
+
+```python
+from booktest.models import BookInfo
+b = BookInfo()
+b.btitle = "天龙八部"
+from datetime import date
+b.bpub_date = date(1990,1,1)
+b.save()
+```
+
+执行完毕之后会在数据表中插入“天龙八部”的记录。
+
+查询数据表中的数据，在shell中执行
+
+```python
+#查询id=1的记录
+br = BookInfo.object.get(id=1)
+#输出 booktest.models.BookInfo
+type(br)
+#输出id=1记录的title
+br.btitle
+```
+
+修改记录，重新赋值，然后save()
+
+```python
+br.bpub_date = date(1991,10,10)
+#重新保存
+br.save()
+```
+
+删除数据，delete()
+
+```python
+br.delete()
+```
+
+
 
 ## flask
 
