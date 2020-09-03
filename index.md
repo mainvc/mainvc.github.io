@@ -229,32 +229,91 @@ br.delete()
 
 ## 深度学习
 
-## 经典库
+### 感知机
 
-## micropython
+有n个输入数据，通过权重与各数据之间的计算和，比较阈值判断，得出输出。
 
-
-
-# vue
-
-## 安装、创建项目、配置
-
-```js
-npm install -g @vue/cli
-vue create hello-world
-vue ui
+```python
+y = w1x1+w2x2+w3x3+w4x4...+wnxn
 ```
 
-### 使用pycharm开发
+![image-20200903141313201](index.assets/image-20200903141313201.png)
 
-pycharm要使用专业版本，setting–>plugin中安装vue.js
+[理解感知机的案例](http://playground.tensorflow.org/)>>
 
-## JS语法及HTML、CSS基础知识
+![image-20200903142511087](index.assets/image-20200903142511087.png)
 
-## vue语法
+感知机和逻辑回归的区别:
 
-## vue开发手机app
+逻辑回归通过激活函数，感知机通过阈值判断
 
-## vue开发桌面app
+### 神经网络
 
-# 项目部署与微服务
+定义：在机器学习和认知科学领域，人工神经网络(artificial neural network 缩写ANN),简称神经网络(neural network，缩写NN)或类神经网络，是一种模仿生物神经网络的结构和功能的计算模型，用于对函数进行估计或近似。
+
+基础神经网络：单层感知器，线性神经网络，BP神经网络，Hopfield神经网络等
+
+进阶神经网络：玻尔兹曼机，受限玻尔兹曼机，递归神经网络等
+
+深度神经网络：深度置信网络，卷积神经网络，循环神经网络，LSTM网络等。
+
+英国学者：辛顿，神经网络之父。
+
+神经网络的结构:
+
+![image-20200903144852048](index.assets/image-20200903144852048.png)
+
+组成：
+
+结构(Architecture)，例如神经网络中的权重，神经元等等
+
+激活函数(Acticity Rule)
+
+学习规则(Learning Rule)学习规则指定了网络中的权重如何随着时间推进而调整(反向传播算法)
+
+### 神经网络多分类
+
+目的：判断某一个样本属于全部类别的每一个概率，然后得到概率最大项。例如
+
+![image-20200903150042704](index.assets/image-20200903150042704.png)
+
+在使用tensorflow时候，tf.nn,tf.layers,tf.contrib模块有很多功能有重复的。下面是对三个模块的简述：
+
+(1)tf.nn:提供神经网络相关操作的支持，包括卷积操作(conv)、池化操作(pooling)、归一化、loss、分类操作、embedding、RNN、Evalution。
+
+(2)tf.layers:主要提供高层的神经网络，主要和卷积相关的，对tf.nn的进一步封装。
+
+(3)tf.contrib:tf.contrib.layers提供够将计算图的网络层、正则化、摘要操作，是构建计算图的高级操作，但是tf.contrib包不稳定以及一些实验代码。
+
+案例：浅层人工神经网络模型SoftMax
+
+图像(28*28)->共有784个特征点—>输入->判断属于0-9的概率—>找出最大概率值。softMax如下:
+
+![image-20200903152831228](index.assets/image-20200903152831228.png)
+
+one_hot格式
+
+[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+交叉熵损失：
+
+衡量softMax结果和真是结果的偏差
+
+![image-20200903153730752](index.assets/image-20200903153730752.png)
+
+
+
+
+
+# 经典库
+
+## numpy
+
+## pandas
+
+## sklearn
+
+## PythonQt(python的桌面应用)
+
+## kivy(python跨平台触摸屏应用，可在手机上运行)
+
