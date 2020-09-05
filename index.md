@@ -76,6 +76,25 @@ setting–>project–>project interpreter
 pip install sklearn  -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 ```
 
+### 在deepin安装anaconda
+
+```cmd
+#可以去官网下载最新安装包 https://www.anaconda.com/distribution/#linux
+wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+bash Anaconda3-5.2.0-Linux-x86_64.sh#一路yes即可
+
+source ~/.bashrc #激活安装
+conda search "^python$"#指令来查看可用的python版本
+
+#更新
+conda update conda
+conda update anaconda
+#卸载
+rm -rf anaconda3 #直接删除anaconda文件夹即可：
+```
+
+
+
 ## 网络编程和多任务
 
 ## 数据库
