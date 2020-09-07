@@ -250,13 +250,7 @@ br.delete()
 
 ## microPython
 
-# PHP
 
-## thinkphp
-
-## Laravel 框架
-
-## layUI
 
 # 前端经典库
 
@@ -269,8 +263,6 @@ br.delete()
 ## deepin
 
 ## pycharm
-
-## PHPstorm
 
 ## postman
 
