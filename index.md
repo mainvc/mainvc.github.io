@@ -260,6 +260,10 @@ br.delete()
 
 # C/C++
 
+### deepin安装配置clion
+
+[超链接](https://blog.csdn.net/qq_18352419/article/details/85228159)
+
 # 工具
 
 ## deepin
