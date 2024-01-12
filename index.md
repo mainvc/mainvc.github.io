@@ -16,8 +16,8 @@
 
 ```python
 total = item_one + \
-		item_two + \
-		item_three
+        item_two + \
+        item_three
 ```
 
 语句中包含[],{}或()括号就不需要使用多行连接符
@@ -92,8 +92,6 @@ conda update anaconda
 #卸载
 rm -rf anaconda3 #直接删除anaconda文件夹即可：
 ```
-
-
 
 ## 网络编程和多任务
 
@@ -245,6 +243,8 @@ br.delete()
 ## numpy
 
 ## pandas
+
+![](assets/57ae65d4dcc6c0e14b943cc2c4818921a5357dd2.png)
 
 ## sklearn
 
