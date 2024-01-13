@@ -12,6 +12,12 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ## 桌面端开发PySide6
 
+### 使用miniconda安装python环境
+
+1.访问[Miniconda — miniconda documentation](https://docs.conda.io/projects/miniconda/en/latest/index.html)，下载windows的最新版本，如下图所示
+
+![](assets/2024-01-13-23-19-26-image.png)
+
 ## 数据库操作
 
 ### MySQL
