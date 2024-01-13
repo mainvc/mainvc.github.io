@@ -1248,142 +1248,140 @@ pre[class*="language-"] {
 
 /*# sourceURL=webpack://./src/muya/lib/assets/styles/exportStyle.css */
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9tdXlhL2xpYi9hc3NldHMvc3R5bGVzL2V4cG9ydFN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLFNBQVM7RUFDVCxVQUFVO0VBQ1YscUJBQXFCO0FBQ3ZCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBOzs7RUFHRSwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7QUFDQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxPQUFPO0VBQ1AsY0FBYztFQUNkLGNBQWM7RUFDZCwrQkFBK0I7QUFDakMiLCJzb3VyY2VSb290IjoiIn0= */</style>
-  <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
+  <style>.markdown-body{}pre.front-matter{display:none!important;}/** Academic **/
+
+/* DejaVu Serif should use 11pt */
+.hf-container,
+.markdown-body {
+  font-family: Georgia,Palatino,"Palatino Linotype","Times New Roman","DejaVu Serif",serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 12pt;
+  line-height: 1.3;
+  color: #212121;
+}
+
+:root {
+  --footerHeaderBorderColor: #1c1c1c;
+}
+.hf-container {
+  font-size: 0.75em;
+}
+.page-header:not(.simple) .hf-container {
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--footerHeaderBorderColor);
+}
+.page-footer:not(.simple) .hf-container {
+  padding-top: 2px;
+  border-top: 1px solid var(--footerHeaderBorderColor);
+}
+
+.footnotes {
+  font-size: 0.75em;
+  opacity: 0.9;
+}
+.footnotes > hr:first-of-type {
+  width: 250px;
+  height: 1px;
+  background: var(--footerHeaderBorderColor);
+}
+.footnotes > ol > li > p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+  color: #282828;
+}
+
+.markdown-body h1 {
+  font-size: 1.8em;
+}
+.markdown-body h2 {
+  font-size: 1.6em;
+}
+.markdown-body h3 {
+  font-size: 1.4em;
+}
+.markdown-body h4,
+.markdown-body h5 {
+  font-size: 1.2em;
+}
+.markdown-body h6 {
+  font-size: 1em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.markdown-body a {
+  color: #212121;
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  background-color: #b0b0b0;
+  height: 1px;
+}
+
+.markdown-body blockquote {
+  border: none;
+  color: #282828;
+  padding: 0 1em;
+  margin-left: 20px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 1px solid #1a1a1a;
+  padding: 2px 6px;
+}
+.markdown-body table tr {
+  background: none;
+  border-top: 1px solid #1a1a1a;
+  text-align: left;
+}
+.markdown-body table tr:nth-child(2n) {
+  background: none;
+}
+
+/*# sourceURL=webpack://./src/renderer/assets/themes/export/academic.theme.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9yZW5kZXJlci9hc3NldHMvdGhlbWVzL2V4cG9ydC9hY2FkZW1pYy50aGVtZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTs7QUFFZixpQ0FBaUM7QUFDakM7O0VBRUUsNkhBQTZIO0VBQzdILGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGtDQUFrQztBQUNwQztBQUNBO0VBQ0UsaUJBQWlCO0FBQ25CO0FBQ0E7RUFDRSxtQkFBbUI7RUFDbkIsdURBQXVEO0FBQ3pEO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsb0RBQW9EO0FBQ3REOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLFlBQVk7QUFDZDtBQUNBO0VBQ0UsWUFBWTtFQUNaLFdBQVc7RUFDWCwwQ0FBMEM7QUFDNUM7QUFDQTtFQUNFLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7Ozs7OztFQU1FLGdCQUFnQjtFQUNoQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCO0FBQ0E7RUFDRSxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdCQUFnQjtBQUNsQjtBQUNBOztFQUVFLGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxtQkFBbUI7RUFDbkIsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsY0FBYztFQUNkLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxZQUFZO0VBQ1osY0FBYztFQUNkLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7O0FBRUE7O0VBRUUseUJBQXlCO0VBQ3pCLHlCQUF5QjtFQUN6QixnQkFBZ0I7QUFDbEI7O0FBRUE7O0VBRUUseUJBQXlCO0VBQ3pCLGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLDZCQUE2QjtFQUM3QixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdCQUFnQjtBQUNsQiIsInNvdXJjZVJvb3QiOiIifQ== */</style>
 </head>
 <body>
-  <article class="markdown-body"><h1 class="atx" id="python">python</h1>
-<h2 class="atx" id="基础知识及使用技巧">基础知识及使用技巧</h2>
-<h3 class="atx" id="python中文编码">python中文编码</h3>
-<p>解决办法是在文件头添加：</p>
-<pre><code class="fenced-code-block language-python"><span class="token comment"># coding=utf-8</span></code></pre>
-<h3 class="atx" id="多行语句">多行语句</h3>
-<p>我们使用斜杠()将一行的语句分为多行显示</p>
-<pre><code class="fenced-code-block language-python">total <span class="token operator">=</span> item_one <span class="token operator">+</span> \
-        item_two <span class="token operator">+</span> \
-        item_three</code></pre>
-<p>语句中包含[],{}或()括号就不需要使用多行连接符</p>
-<pre><code class="fenced-code-block language-python">days <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Monday'</span><span class="token punctuation">,</span><span class="token string">'Tuesday'</span><span class="token punctuation">,</span><span class="token string">'Wednesday'</span><span class="token punctuation">,</span>
-<span class="token string">'Thursday'</span><span class="token punctuation">,</span><span class="token string">'Friday'</span><span class="token punctuation">]</span></code></pre>
-<h3 class="atx" id="用户输入">用户输入</h3>
-<p>使用input进行用户输入</p>
-<pre><code class="fenced-code-block language-python">name <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入您的姓名："</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span></code></pre>
-<h3 class="atx" id="命令行参数">命令行参数</h3>
-<p>使用sys的sys.argv来获取命令行参数，如命令行为</p>
-<pre><code class="fenced-code-block language-python">python test<span class="token punctuation">.</span>py arg1 arg2 arg3</code></pre>
-<p>那么sys.argv为</p>
-<pre><code class="fenced-code-block">['test.py', 'arg1', 'arg2', 'arg3']</code></pre>
-<h2 class="atx" id="anaconda-andamp-pycharm">Anaconda &amp; pycharm</h2>
-<p>使用Anaconda Prompt进行环境的切换，使用pycharm创建运行环境。</p>
-<h3 class="atx" id="anaconda-prompt查看所有的运行环境">Anaconda Prompt查看所有的运行环境</h3>
-<pre><code class="fenced-code-block language-python">conda info <span class="token operator">-</span>e</code></pre>
-<h3 class="atx" id="anaconda-prompt激活某一个运行环境">Anaconda Prompt激活某一个运行环境</h3>
-<pre><code class="fenced-code-block language-python">activate Aol</code></pre>
-<h3 class="atx" id="使用pycharm创建运行环境">使用pycharm创建运行环境</h3>
-<p>setting–&gt;project–&gt;project interpreter</p>
-<h3 class="atx" id="使用豆瓣加速pip安装">使用豆瓣加速pip安装</h3>
-<pre><code class="fenced-code-block language-python">pip install sklearn  <span class="token operator">-</span>i http<span class="token punctuation">:</span><span class="token operator">//</span>pypi<span class="token punctuation">.</span>douban<span class="token punctuation">.</span>com<span class="token operator">/</span>simple<span class="token operator">/</span> <span class="token operator">-</span><span class="token operator">-</span>trusted<span class="token operator">-</span>host pypi<span class="token punctuation">.</span>douban<span class="token punctuation">.</span>com</code></pre>
-<h3 class="atx" id="在deepin安装anaconda">在deepin安装anaconda</h3>
-<pre><code class="fenced-code-block language-cmd">#可以去官网下载最新安装包 https://www.anaconda.com/distribution/#linux
-wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
-bash Anaconda3-5.2.0-Linux-x86_64.sh#一路yes即可
-
-source ~/.bashrc #激活安装
-conda search "^python$"#指令来查看可用的python版本
-
-#更新
-conda update conda
-conda update anaconda
-#卸载
-rm -rf anaconda3 #直接删除anaconda文件夹即可：</code></pre>
-<h2 class="atx" id="网络编程和多任务">网络编程和多任务</h2>
-<h2 class="atx" id="数据库">数据库</h2>
-<h2 class="atx" id="django">django</h2>
-<h3 class="atx" id="创建项目">创建项目</h3>
-<pre><code class="fenced-code-block language-python">django<span class="token operator">-</span>admin startproject test1</code></pre>
-<p><img alt="image-20200901154433005" src="index.assets/image-20200901154433005.png"></p>
-<p><strong>init</strong>.py:说明test1是一个python包</p>
-<p>settings.py:项目的配置文件</p>
-<p>urls.py:进行url路由的配置</p>
-<p>wsgi.py:遵循wsgi协议框架，web服务器网关接口，主要针对http风格的请求响应模型做的设计。但不支持websocket。</p>
-<p>asgi.py:异步网关协议接口，能够支持http和websocket。</p>
-<p>manage.py:整个项目的管理文件。</p>
-<h3 class="atx" id="创建功能模块和应用">创建功能模块和应用</h3>
-<p>Django开发中，一个功能模块用一个应用来实现</p>
-<p>创建应用：</p>
-<pre><code class="fenced-code-block language-python">python manage<span class="token punctuation">.</span>py startapp booktest</code></pre>
-<p><img alt="image-20200901160847834" src="index.assets/image-20200901160847834.png"></p>
-<p>init.py说明目录是一个python模块。</p>
-<p>models.py:写和数据库相关的内容。</p>
-<p>views.py:定义视图函数。</p>
-<p>tests.py:写测试代码的文件。</p>
-<p>admin.py:和网站的后台管理相关的文件。</p>
-<h3 class="atx" id="注册应用到项目">注册应用到项目</h3>
-<p>在项目文件夹test1中settings.py的INSTALLED_APPS变量里注册booktest：</p>
-<p><img alt="image-20200901162023542" src="index.assets/image-20200901162023542.png"></p>
-<h3 class="atx" id="启动项目">启动项目</h3>
-<pre><code class="fenced-code-block language-python">python manage<span class="token punctuation">.</span>py runserver</code></pre>
-<h3 class="atx" id="orm">ORM</h3>
-<p>缩写Object、Relation、Mapping，描述对象类和数据库中的表之间的映射关系。</p>
-<h3 class="atx" id="模型类和表的设计">模型类和表的设计</h3>
-<p>在<strong>应用</strong>的models.py中设计ORM。例如：</p>
-<pre><code class="fenced-code-block language-python"><span class="token keyword">from</span> django<span class="token punctuation">.</span>db <span class="token keyword">import</span> models
-
-<span class="token comment"># Create your models here.</span>
-<span class="token keyword">class</span> <span class="token class-name">BookInfo</span><span class="token punctuation">(</span>models<span class="token punctuation">.</span>Model<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token comment">#图书名称</span>
-    btitle <span class="token operator">=</span> models<span class="token punctuation">.</span>CharField<span class="token punctuation">(</span>max_length<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span>
-    <span class="token comment">#图书的出版日期</span>
-    bpub_date <span class="token operator">=</span> models<span class="token punctuation">.</span>DateField<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<p>生成迁移文件，在项目目录下执行</p>
-<pre><code class="fenced-code-block language-python">python manage<span class="token punctuation">.</span>py makemigrations</code></pre>
-<p>执行迁移生成数据库表，在项目目录下执行</p>
-<pre><code class="fenced-code-block language-python">python manage<span class="token punctuation">.</span>py migrate</code></pre>
-<p>Django默认使用sqlite数据库，在项目文件夹settings里面设置，支持绝大多数数据库。</p>
-<h3 class="atx" id="通过模型类操作数据表">通过模型类操作数据表</h3>
-<p>django shell可以来实现模型类操作数据表</p>
-<pre><code class="fenced-code-block language-python">python manage<span class="token punctuation">.</span>py shell</code></pre>
-<p>创建实例，增加数据，在shell中依次执行</p>
-<pre><code class="fenced-code-block language-python"><span class="token keyword">from</span> booktest<span class="token punctuation">.</span>models <span class="token keyword">import</span> BookInfo
-b <span class="token operator">=</span> BookInfo<span class="token punctuation">(</span><span class="token punctuation">)</span>
-b<span class="token punctuation">.</span>btitle <span class="token operator">=</span> <span class="token string">"天龙八部"</span>
-<span class="token keyword">from</span> datetime <span class="token keyword">import</span> date
-b<span class="token punctuation">.</span>bpub_date <span class="token operator">=</span> date<span class="token punctuation">(</span><span class="token number">1990</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>
-b<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<p>执行完毕之后会在数据表中插入“天龙八部”的记录。</p>
-<p>查询数据表中的数据，在shell中执行</p>
-<pre><code class="fenced-code-block language-python"><span class="token comment">#查询id=1的记录</span>
-br <span class="token operator">=</span> BookInfo<span class="token punctuation">.</span><span class="token builtin">object</span><span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token builtin">id</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
-<span class="token comment">#输出 booktest.models.BookInfo</span>
-<span class="token builtin">type</span><span class="token punctuation">(</span>br<span class="token punctuation">)</span>
-<span class="token comment">#输出id=1记录的title</span>
-br<span class="token punctuation">.</span>btitle</code></pre>
-<p>修改记录，重新赋值，然后save()</p>
-<pre><code class="fenced-code-block language-python">br<span class="token punctuation">.</span>bpub_date <span class="token operator">=</span> date<span class="token punctuation">(</span><span class="token number">1991</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span>
-<span class="token comment">#重新保存</span>
-br<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<p>删除数据，delete()</p>
-<pre><code class="fenced-code-block language-python">br<span class="token punctuation">.</span>delete<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h2 class="atx" id="flask">flask</h2>
-<h2 class="atx" id="tornado">tornado</h2>
-<h2 class="atx" id="scrapy">scrapy</h2>
-<h2 class="atx" id="pythonqtpython的桌面应用">PythonQt(python的桌面应用)</h2>
-<h2 class="atx" id="numpy">numpy</h2>
-<h2 class="atx" id="pandas">pandas</h2>
-<p><img alt="" src="assets/57ae65d4dcc6c0e14b943cc2c4818921a5357dd2.png"></p>
-<h2 class="atx" id="sklearn">sklearn</h2>
-<h2 class="atx" id="tensorflow">tensorflow</h2>
-<h2 class="atx" id="pytorch">pytorch</h2>
-<h2 class="atx" id="caffe">caffe</h2>
-<h2 class="atx" id="micropython">microPython</h2>
-<h1 class="atx" id="cc">C/C++</h1>
-<h3 class="atx" id="deepin安装配置clion">deepin安装配置clion</h3>
-<p><a href="https://blog.csdn.net/qq_18352419/article/details/85228159">超链接</a></p>
-<h1 class="atx" id="工具">工具</h1>
-<h2 class="atx" id="deepin">deepin</h2>
-<h2 class="atx" id="pycharm">pycharm</h2>
-<h2 class="atx" id="postman">postman</h2>
-<h2 class="atx" id="emq">EMQ</h2>
+  <article class="markdown-body"><h1 class="atx" id="柳雨的python知识库">柳雨的python知识库</h1>
+<p>Python是一种高级的、动态类型的编程语言，它以清晰、易读的语法而著名。Python被广泛用于各种领域，包括Web开发、数据科学、人工智能、机器学习、网络爬虫、系统自动化、游戏开发等。</p>
+<p>Python具有强大的标准库和丰富的第三方库，这使得Python能够快速开发出复杂的程序。例如，使用Python的NumPy和Pandas库可以轻松地处理大规模的数据集，而使用TensorFlow或PyTorch库则可以进行深度学习。</p>
+<p>Python的动态类型特性使得Python更加灵活，但也需要注意可能带来的类型相关错误。Python还有强大的社区支持，使得Python的使用者可以快速找到问题的解决方案。</p>
+<p>Python的设计哲学强调的是代码的可读性和简洁性，这使得Python成为一种非常适合初学者的编程语言。Python的语法清晰、简洁，使得Python代码易于阅读和理解。同时，Python也支持多种编程范式，如面向对象编程和函数式编程，这使得Python更加灵活和强大。</p>
+<p>总的来说，Python是一种强大、灵活、易读的编程语言，它适用于各种领域和项目。如果你想要快速开发出高质量的程序，或者想要学习一种易于理解和使用的编程语言，那么Python是一个非常好的选择。</p>
+<h2 class="atx" id="桌面端开发pyside6">桌面端开发PySide6</h2>
+<h2 class="atx" id="数据库操作">数据库操作</h2>
+<h3 class="atx" id="mysql">MySQL</h3>
+<h3 class="atx" id="mongodb">MongoDb</h3>
+<h2 class="atx" id="web开发">Web开发</h2>
+<h3 class="atx" id="flask">Flask</h3>
+<h2 class="atx" id="机器学习">机器学习</h2>
+<h2 class="atx" id="深度学习">深度学习</h2>
+<h2 class="atx" id="行业应用">行业应用</h2>
+<h3 class="atx" id="phm">PHM</h3>
+<h3 class="atx" id="医疗行业">医疗行业</h3>
+<h3 class="atx" id="农业物联网">农业物联网</h3>
+<h3 class="atx" id="智能硬件">智能硬件</h3>
 </article>
 </body>
 </html>
