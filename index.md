@@ -14,7 +14,7 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ### 使用miniconda安装python环境
 
-1.访问[Miniconda — miniconda documentation](https://docs.conda.io/projects/miniconda/en/latest/index.html)，下载windows的最新版本，如下图所示
+（1）.访问[Miniconda — miniconda documentation](https://docs.conda.io/projects/miniconda/en/latest/index.html)，下载windows的最新版本，如下图所示
 
 ![](assets/2024-01-13-23-19-26-image.png)
 
@@ -32,9 +32,17 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ## 深度学习
 
+
+
 ## 行业应用
 
 ### PHM
+
+#### 算法模型和算法工程
+
+     算法模型是核心，每一个模型是针对某一特定故障的诊断逻辑，规定了输入数据属性，针对与该种故障返回对应的诊断结果，模型分为固定阈值、动态阈值、趋势预测、机理模型、AI模型、多传感器融合模型，公司拥有工业设备故障50+种的诊断模型，每一个模型均经过理论推导、实验验证和项目验证，具有高准确率。算法工程是算法模型调用的环境和策略，每一种模型的输入数据类型和数据属性是固定的，并且大部分算法模型需要有算法参数输入，并且根据预测对象的不同会设置不同的预测周期，算法工程结合可视化界面关联配置预测对象、传感设备、算法模型、模型参数、调用策略、升级策略等，是算法应用和算法模型之间的桥梁。
+
+![](assets/6c5aca2c7dd4fd6cdb176cd592230486e646efbb.png)
 
 ### 医疗行业
 
