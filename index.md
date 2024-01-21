@@ -18,6 +18,18 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ![](assets/2024-01-13-23-19-26-image.png)
 
+（2）下载完成后点击安装，一直下一步安装完成。
+
+（3）pycharm社区版选定终端terminal为cmd，设置之后在pycharm内置的terminal中自动带入conda环境。
+
+![](assets/2024-01-21-20-34-30-image.png)
+
+（4）设置pip的默认仓库地址为清华源，在pycharm的terminal中运行
+
+```
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## 数据库操作
 
 ### MySQL
@@ -28,11 +40,27 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ### Flask
 
+### 前端开发环境
+
+（1）下载node环境，打开node下载官网网址[Node.js (nodejs.org)](https://nodejs.org/en)，下载最新的稳定版node，下一步进行安装。
+
+（2）下载hbuilder，hbuilder是多端开发环境，使用uniapp可以实现一套代码多端复用，打开hbuilder下载，[HBuilderX-高效极客技巧 (dcloud.io)](https://www.dcloud.io/hbuilderx.html)
+
+![](assets/2024-01-21-20-32-33-image.png)
+
+（3）下载解压之后，发送启动程序到桌面快捷方式，新建项目
+
+![](assets/2024-01-21-20-59-58-image.png)
+
+(4)设置全局npm的仓库地址为淘宝源
+
+```
+npm config set registry  http://registry.npm.taobao.org
+```
+
 ## 机器学习
 
 ## 深度学习
-
-
 
 ## 行业应用
 
@@ -44,8 +72,8 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 
 ![](assets/6c5aca2c7dd4fd6cdb176cd592230486e646efbb.png)
 
-### 医疗行业
+### 基于Python的智能硬件
 
-### 农业物联网
+#### micropython
 
-### 智能硬件
+#### pikapython
