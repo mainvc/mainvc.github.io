@@ -30,7 +30,23 @@ Python的设计哲学强调的是代码的可读性和简洁性，这使得Pytho
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## 数据库操作
+（5）安装pyside6
+
+```
+pip install PySide6
+```
+
+（6）绑定pyside6的designer到pycharm的外部工具
+
+参考1：[PyCharm下安装配置PySide6开发环境（Qt Designer、PyUIC和PyRCC）_pycharm pyside6-CSDN博客](https://blog.csdn.net/baiydn/article/details/126483010)
+
+参考2：[PyCharm下安装配置PySide6开发环境（Qt Designer(打开，编辑)、PyUIC和PyRCC）_pycharm配置pyside6-CSDN博客](https://blog.csdn.net/mengenqing/article/details/132489529)
+
+（7）设置ui界面自适应大小
+
+![](assets/2024-01-27-11-35-22-image.png)
+
+## ## 数据库操作
 
 ### MySQL
 
